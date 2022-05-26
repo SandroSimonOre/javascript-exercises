@@ -13,10 +13,10 @@ _Requeriments:_
 
 * convertHTML("Schindler's List") should return the string Schindler&apos;s List.
 
-* convertHTML("<>") should return the string [&lt;&gt;].
+* convertHTML("<>") should return the string ```&lt;&gt;```.
 
 * convertHTML("abc") should return the string abc.
 
 
 _You can find this excercise at:_
-https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/intermediate-algorithm-scripting/convert-html-entities
+[https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/intermediate-algorithm-scripting/convert-html-entities]
