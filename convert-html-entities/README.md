@@ -1,8 +1,8 @@
-Convert HTML Entities
+#Convert HTML Entities
 
 Convert the characters &, <, >, " (double quote), and ' (apostrophe), in a string to their corresponding HTML entities.
 
-Requeriments:
+_Requeriments:_
 1. convertHTML("Dolce & Gabbana") should return the string Dolce &amp; Gabbana.
 
 2. convertHTML("Hamburgers < Pizza < Tacos") should return the string Hamburgers &lt; Pizza &lt; Tacos.
@@ -18,5 +18,5 @@ Requeriments:
 7. convertHTML("abc") should return the string abc.
 
 
-Others:
+_Others:_
 https://forum.freecodecamp.org/t/freecodecamp-challenge-guide-convert-html-entities/16007

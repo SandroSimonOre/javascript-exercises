@@ -1,4 +1,4 @@
-function convertHTML(str) {
+function convertHTMLEntities(str) {
 
     let keys = ['&', '<', '>', '"', "'"];
     let values = ['&amp;', '&lt;', '&gt;','&quot;','&apos;']
@@ -13,6 +13,6 @@ function convertHTML(str) {
 
   }
   
-let res = convertHTML("Dolce & Gabbana");
+let res = convertHTMLEntities("Dolce & Gabbana");
 
 console.log(res)
